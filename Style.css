@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+.nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+/* LOGO */
+.logo h1 {
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+/* Couleurs Google */
+.blue { color: #4285F4; }
+.red { color: #EA4335; }
+.yellow { color: #FBBC05; }
+.green { color: #34A853; }
+
+/* BARRE DE RECHERCHE */
+.search-box input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+}
+
+/* BOUTONS */
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid #ccc;
+}
+
+/* FOOTER */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #f2f2f2;
+    padding: 10px;
+}
